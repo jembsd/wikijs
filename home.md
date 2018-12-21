@@ -12,9 +12,10 @@
 | :---|
 | Discovery |
 
-| Header|
+| Enumeration |
 | :---|
-| Discovery |
+| Service |
+| Web |
 
 
 # Binary Exploitation
