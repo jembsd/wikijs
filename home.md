@@ -4,8 +4,8 @@
 # Offensive Security
 * [01 - Discovery](01-discovery/discovery)
 * [02 - Enumeration](#)
-	* [Service Enumeration](02-enumeration/service-enumeration)
-	* [Web Enumeration](02-enumeration/web-enumeration)
+	* [02.1 - Service Enumeration](02-enumeration/service-enumeration)
+	* [02.2 - Web Enumeration](02-enumeration/web-enumeration)
 * [03 - Discovery](01-discovery/discovery)
 
 # Binary Exploitation
