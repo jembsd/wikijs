@@ -12,4 +12,6 @@
 # Bug Hunters Methodology
 # Coding
 # Quick Links
+## Web
+## PDFs
 
