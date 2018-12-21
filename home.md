@@ -8,16 +8,6 @@
 	* [02.2 - Web Enumeration](02-enumeration/web-enumeration)
 * [03 - Discovery](01-discovery/discovery)
 
-| Header|
-| :---|
-| Discovery |
-
-| Enumeration |
-| :---|
-| Service |
-| Web |
-
-
 # Binary Exploitation
 # Bug Hunters Methodology
 # Coding
@@ -26,7 +16,7 @@
 | Link | Description |
 | :--- | :--- |
 | [OWASP Testing Guide](#) | Web Application Testing Guide v4 by OWASP |
-| TEST | TEST |
+
 ## PDFs
 | Link | Description |
 | :--- | :--- |
