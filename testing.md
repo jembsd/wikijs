@@ -8,7 +8,7 @@ The vulnerability stems from unsanitized user-input. LFI is particularly common 
 
 Here is an example of php-code vulnerable to LFI. As you can see we just pass in the url-parameter into the require-function without any sanitization. So the user can just add the path to any file.
 
-```
+```php
 $file = $_GET['page'];
 require($file);
 In this example the user could just enter this string and retrieve the /etc/passwd file.
