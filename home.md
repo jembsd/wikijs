@@ -8,6 +8,14 @@
 	* [02.2 - Web Enumeration](02-enumeration/web-enumeration)
 * [03 - Discovery](01-discovery/discovery)
 
+| Header|
+| :---|
+| Discovery |
+| Header|
+| :---|
+| Discovery |
+
+
 # Binary Exploitation
 # Bug Hunters Methodology
 # Coding
