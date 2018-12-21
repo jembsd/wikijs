@@ -16,6 +16,17 @@ In this example the user could just enter this string and retrieve the /etc/pass
 http://example.com/page=../../../../../../etc/passwd
 ```
 
+**Bold**
+
+> Note
+
+__Emphasis__
+
+
+
+-----
+
+
 
 |HEader1|Header2|
 |--------|---------|
