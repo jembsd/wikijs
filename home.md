@@ -1,4 +1,5 @@
 <!-- TITLE: Home -->
 <!-- SUBTITLE: A quick summary of Home -->
 
-# Home Page
+# Offensive Security
+## [Discovery](http://localhost/01-discovery/discovery)
