@@ -9,4 +9,7 @@
 * [03 - Discovery](01-discovery/discovery)
 
 # Binary Exploitation
+# Bug Hunters Methodology
+# Coding
+# Quick Links
 
