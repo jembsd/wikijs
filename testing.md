@@ -26,9 +26,9 @@ __Emphasis__
 
 :) 
 
-(\)
+:no:
 
-:tick:
+:yes:
 
 -----
 
