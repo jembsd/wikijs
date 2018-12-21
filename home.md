@@ -11,7 +11,7 @@
 # Binary Exploitation
 # Bug Hunters Methodology
 # Coding
-# Quick Links
+# Resources
 ## Web
 ## PDFs
 
