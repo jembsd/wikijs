@@ -17,7 +17,7 @@ I will try to make this chapter into a reference library. So that you can just c
 * **Exploitable**
  * Search for any available public exploits, especially RCE which can provide a few easy wins.
 * **Brute Forceable**
- * Alwways try common weak or default passwords.
+ * Always try common weak or default passwords.
  * Check for password re-use as soon as new credentials are disocvered.
 
 ## Port XXX - Service unknown
