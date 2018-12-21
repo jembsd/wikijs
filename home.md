@@ -13,5 +13,11 @@
 # Coding
 # Resources
 ## Web
+| Link | Description |
+| :--- | :--- |
+| [OWASP Testing Guide](#) | Web Application Testing Guide v4 by OWASP |
 ## PDFs
+| Link | Description |
+| :--- | :--- |
+| [OWASP Testing Guide](#) | Web Application Testing Guide v4 by OWASP |
 
