@@ -2,9 +2,9 @@
 <!-- SUBTITLE: A quick summary of Home -->
 
 # Offensive Security
-| Penetration Testing | - | Reference Sheets |
+| Penetration Testing | Description | Reference Sheets |
 | :--- | :--- | :---|
-| [01 - Discovery](01-discovery/discovery) <br> [02 - Enumeration](#) <br> [ - Service Enumeration](02-enumeration/service-enumeration) <br> [ - Web Enumeration](02-enumeration/web-enumeration) <br> [03 - Discovery](01-discovery/discovery) | - | - |
+| [01 - Discovery](01-discovery/discovery) <br> [02 - Enumeration](#) <br> [ - Service Enumeration](02-enumeration/service-enumeration) <br> [ - Web Enumeration](02-enumeration/web-enumeration) <br> [03 - Discovery](01-discovery/discovery) | Discovering and mapping the target assets <br> Identifying the attack surface <br>  | - |
 
 # Binary Exploitation
 # Bug Hunters Methodology
