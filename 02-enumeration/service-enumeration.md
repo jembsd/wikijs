@@ -164,7 +164,7 @@ hydra -L /home/10.10.10.228/loot/userlist.txt -e nsr 10.10.10.228 -s 22 ssh
 hydra -L /usr/share/wordlists/SecLists/Passwords/darkweb2017-top100.txt -e nsr 10.10.10.228 -s 22 ssh
 ```
 
-### Summary
+## Summary
 
 - If SSH is enabled, make note of it as it may be leveraged later on in further attacks
   - Injection attacks enabling us to write our own RSA key and obtain SSH access
@@ -1935,7 +1935,7 @@ Read the certificate.
 * Does it include names that might be useful?
 * Correct vhost
 
-# Port 548 - Apple Filing Protocol
+# Port 548 - AFP
 
 AFP is a proprietary network protocol that offers file services for MAC OS X and original MAC OS.
 
@@ -2073,7 +2073,7 @@ Outgoing smtp-port
 If Postfix is run on it it could be vunerable to shellshock  
 [https://www.exploit-db.com/exploits/34896/](https://www.exploit-db.com/exploits/34896/)
 
-# Port 631 - Cups
+# Port 631 - CUPS
 
 Common UNIX Printing System has become the standard for sharing printers on a linux-network.  
 You will often see port 631 open in your priv-esc enumeration when you run `netstat`. You can log in to it here: [http://localhost:631/admin](http://localhost:631/admin)
@@ -2178,7 +2178,7 @@ Run:
     Your directory should now be downloading
 
 
-# Port 993 - Imap Encrypted
+# Port 993 - IMAP Encrypted
 
 The default port for the Imap-protocol.
 
@@ -2700,7 +2700,7 @@ Rick Osgood has written a blog <a href="https://blog.anitian.com/hacking-microso
 -   <a href="https://blog.netspi.com/sql-server-persistence-part-1-startup-stored-procedures/" class="reference external">Maintaining Persistence via SQL Server – Part 1: Startup Stored Procedures</a>
 
 
-# Port 1521 - Oracle database
+# Port 1521 - Oracle DB
 
 After setting up oracle with metasploit here <a href="https://github.com/rapid7/metasploit-framework/wiki/How-to-get-Oracle-Support-working-with-Kali-Linux" class="reference external">How to get Oracle Support working with Kali Linux</a> We will directly follow the procedure presented by Chris Gates <a href="http://www.blackhat.com/presentations/bh-usa-09/GATES/BHUSA09-Gates-OracleMetasploit-SLIDES.pdf" class="reference external">BHUSA09-Gates-OracleMetasploit-Slides</a>
 
@@ -2879,7 +2879,7 @@ Some SQL statements which could be executed after SQL Plus connection:
 [http://www.red-database-security.com/wp/itu2007.pdf](http://www.red-database-security.com/wp/itu2007.pdf)
 A good blog to secure oracle is <a href="http://blog.opensecurityresearch.com/2012/03/top-10-oracle-steps-to-secure-oracle.html" class="reference external">Top 10 Oracle Steps to a Secure Oracle Database Server</a>
 
-# Ports 1748, 1754, 1808, 1809 - Oracle
+# Ports 1748/1754/1808/1809 - Oracle
 
 These are also ports used by oracle on windows. They run Oracles **Intelligent Agent**.
 
@@ -3135,9 +3135,6 @@ We can find more information about it by just using without any –login/–logo
 
 We have created a script to automate login/ logout process available at <a href="https://github.com/bitvijays/Pentest-Scripts/tree/master/Vulnerability_Analysis/isciadm" class="reference external">iscsiadm</a>
 
-
-# Port 3268 - globalcatLdap
-
 # Port 3299 - SAP Router
 
 morisson has written a blog on <a href="https://community.rapid7.com/community/metasploit/blog/2014/01/09/piercing-saprouter-with-metasploit" class="reference external">Piercing SAProuter with Metasploit</a>
@@ -3310,9 +3307,9 @@ Once we have the username and password, we can use **mysql utility** to login in
 
     mysql -u root -p -h 10.10.xx.xx
 
-# Port 3339 - Oracle web interface
+# Port 3339 - Oracle Web Int
 
-# Port 3389 - Remote Desktop Protocol
+# Port 3389 - RDP
 
 This is a proprietary protocol developed by windows to allow remote desktop.
 
@@ -3332,9 +3329,6 @@ ncrack -vv --user Administrator -P /root/passwords.txt rdp://192.168.1.101
 
 This is categorized by microsoft as a RCE vulnerability. But there is no POC for it online. You can only DOS a machine using this exploit.
 
-# Port 4445 - Upnotifyp
-
-I have not found anything here. Try connecting with netcat and visiting in browser.
 
 # Port 4555 - RSIP
 
@@ -3347,8 +3341,6 @@ There is an exploit for version 2.3.2
 # Port 47001 - Windows Remote Management Service
 
 Windows Remote Management Service
-
-# Port 5357 - WSDAPI
 
 # Port 5432 - Postgresql
 
@@ -3733,7 +3725,7 @@ For **live viewing** we need to use
     ./xwatchwin 10.9.xx.xx:0 -w 0x45
 
 
-# Port 8009 - AJP Apache JServ Protocol
+# Port 8009 - AJP Apache JServ
 
 The Tomcat manager interface is usually accessed on the Tomcat HTTP(S) port. but we often do forget that we can also access that manager interface on port 8009 that by default handles the AJP (Apache JServ Protocol) protocol.
 
@@ -3743,36 +3735,36 @@ Sometimes we do encounter situation where port:8009 is open and the rest port 80
 
     sudo apt-get install libapach2-mod-jk
     sudo vim /etc/apache2/mods-available/jk.conf
-        # Where to find workers.properties
-        # Update this path to match your conf directory location
-        JkWorkersFile /etc/apache2/jk_workers.properties
-        # Where to put jk logs
-        # Update this path to match your logs directory location
-        JkLogFile /var/log/apache2/mod_jk.log
-        # Set the jk log level [debug/error/info]
-        JkLogLevel info
-        # Select the log format
-        JkLogStampFormat "[%a %b %d %H:%M:%S %Y]"
-        # JkOptions indicate to send SSL KEY SIZE,
-        JkOptions +ForwardKeySize +ForwardURICompat -ForwardDirectories
-        # JkRequestLogFormat set the request format
-        JkRequestLogFormat "%w %V %T"
-        # Shm log file
-        JkShmFile /var/log/apache2/jk-runtime-status
+    # Where to find workers.properties
+    # Update this path to match your conf directory location
+    JkWorkersFile /etc/apache2/jk_workers.properties
+    # Where to put jk logs
+    # Update this path to match your logs directory location
+    JkLogFile /var/log/apache2/mod_jk.log
+    # Set the jk log level [debug/error/info]
+    JkLogLevel info
+    # Select the log format
+    JkLogStampFormat "[%a %b %d %H:%M:%S %Y]"
+    # JkOptions indicate to send SSL KEY SIZE,
+    JkOptions +ForwardKeySize +ForwardURICompat -ForwardDirectories
+    # JkRequestLogFormat set the request format
+    JkRequestLogFormat "%w %V %T"
+    # Shm log file
+    JkShmFile /var/log/apache2/jk-runtime-status
     sudo ln -s /etc/apache2/mods-available/jk.conf /etc/apache2/mods-enabled/jk.conf
     sudo vim /etc/apache2/jk_workers.properties
-        # Define 1 real worker named ajp13
-        worker.list=ajp13
-        # Set properties for worker named ajp13 to use ajp13 protocol,
-        # and run on port 8009
-        worker.ajp13.type=ajp13
-        worker.ajp13.host=localhost
-        worker.ajp13.port=8009
-        worker.ajp13.lbfactor=50
-        worker.ajp13.cachesize=10
-        worker.ajp13.cache_timeout=600
-        worker.ajp13.socket_keepalive=1
-        worker.ajp13.socket_timeout=300
+    # Define 1 real worker named ajp13
+    worker.list=ajp13
+    # Set properties for worker named ajp13 to use ajp13 protocol,
+    # and run on port 8009
+    worker.ajp13.type=ajp13
+    worker.ajp13.host=localhost
+    worker.ajp13.port=8009
+    worker.ajp13.lbfactor=50
+    worker.ajp13.cachesize=10
+    worker.ajp13.cache_timeout=600
+    worker.ajp13.socket_keepalive=1
+    worker.ajp13.socket_timeout=300
     sudo vim /etc/apache2/sites-enabled/000-default
     JkMount /* ajp13
     JkMount /manager/   ajp13
@@ -3806,7 +3798,7 @@ Here we have to set the worker.ajp13.host to the correct host and we can just po
 <a href="http://blog.rajeevsharma.in/2010/02/configure-modjk-with-apache-22-in.html" class="reference external">Configure modjk with apache</a>
 
 
-# PJL - Port 9100
+# Port 9100 - PJL
 
 ## Metasploit
 
@@ -3855,7 +3847,7 @@ Sample Output:
     |_pjl-ready-message: "Processing..."
 ```
 
-# Apache Cassandra - Port 9160
+# Port 9160 - Apache Cassandra
 
 For Apache Cassandra,
 
@@ -3894,7 +3886,9 @@ Sample Output:
     |_cassandra-brute: Any username and password would do, 'default' was used to test
 ```
 
-# Network Data Management Protocol (ndmp) - Port 10000
+# Port 10000 - NDMP
+
+Network Data Management Protocol
 
 ## Nmap
 
@@ -3925,7 +3919,7 @@ Sample Output:
 ### ndmp-version
 
 <a href="https://nmap.org/nsedoc/scripts/ndmp-version.html" class="reference external">ndmp-version</a> : Retrieves version information from the remote Network Data Management Protocol (ndmp) service. NDMP is a protocol intended to transport data between a NAS device and the backup device, removing the need for the data to pass through the backup server. This nse although is not outputing the version correctly, however if we switch to –script-trace we do find the versions
-
+```
     00000010: 00 00 01 08 00 00 00 02 00 00 00 00 00 00 00 00
     00000020: 00 00 00 17 56 45 52 49 54 41 53 20 53 6f 66 74     VERITAS Soft
     00000030: 77 61 72 65 2c 20 43 6f 72 70 2e 00 00 00 00 13 ware, Corp.
@@ -3940,9 +3934,9 @@ Sample Output:
     00000030: 77 61 72 65 2c 20 43 6f 72 70 2e 00 00 00 00 13 ware, Corp.
     00000040: 52 65 6d 6f 74 65 20 41 67 65 6e 74 20 66 6f 72 Remote Agent for
     00000050: 20 4e 54 00 00 00 00 03 36 2e 33 00 00 00 00 03  NT     6.3
+```
 
-
-# Memcache - Port 11211
+# Port 11211 - Memcache
 
 Memcached is a free & open source, high-performance, distributed memory object caching system.
 
@@ -4036,7 +4030,7 @@ We can also telnet to this port: Stats is one of the commands
 Sensepost has written a tool <a href="https://github.com/sensepost/go-derper" class="reference external">go-derper</a> and a article here <a href="https://www.sensepost.com/blog/2010/blackhat-write-up-go-derper-and-mining-memcaches/" class="reference external">blackhat-write-up-go-derper-and-mining-memcaches</a> Blackhat slides <a href="https://media.blackhat.com/bh-ad-10/Sensepost/BlackHat-AD-2010-Slaviero-Lifting-the-Fog-slides.pdf" class="reference external">Lifting the Fog</a>
 
 
-# MongoDB - Port 27017 and Port 27018
+# Port 27017 - MongoDB
 
 <a href="https://github.com/all3g/exploit-exercises/tree/master/mongodb" class="reference external">mongodb</a> provides a good walkthru how to check for vulns in mongodb;
 
@@ -4237,7 +4231,6 @@ It is important that to have a look at the <a href="https://docs.mongodb.com/man
 -   db.collection.deleteOne() Deletes a single document in a collection.
 -   db.collection.find() Performs a query on a collection or a view and returns a cursor object.
 -   db.collection.insert() Creates a new document in a collection.
--   and others
 
 In cursor method, there are
 
@@ -4248,7 +4241,7 @@ In cursor method, there are
 -   cursor.toArray() Returns an array that contains all documents returned by the cursor.
 
 
-# EthernetIP-TCP-UDP - Port 44818
+# Port 44818 - EthernetIP
 
 If we found TCP Port 44818, probably it’s running Ethernet/IP. Rockwell Automation/ Allen Bradley developed the protocol and is the primary maker of these devices, e.g. ControlLogix and MicroLogix, but it is an open standard and a number of vendors offer an EtherNet/IP interface card or solution.
 
@@ -4279,9 +4272,7 @@ Rockwell Automation has
 -   MicroLogix 1100: Default Username:password is administrator:ml1100
 -   MicroLogix 1400: Default Username:password is administrator:ml1400 User manual is <a href="http://literature.rockwellautomation.com/idc/groups/literature/documents/um/1766-um002_-en-p.pdf" class="reference external">MicroLogix 1400</a> guest:guest is another default password.
 
-<span id="id121"></span>
-
-# UDP BACNet - Port 47808
+# Port 47808 - UDP BACNet
 
 If we found UDP Port 47808 open, we can use BACnet-discover-enumerate NSE created by <a href="https://github.com/digitalbond/Redpoint" class="reference external">Redpoint</a> Should read <a href="http://www.digitalbond.com/blog/2014/03/26/redpoint-discover-enumerate-bacnet-devices/" class="reference external">Discover Enumerate bacnet devices</a>
 

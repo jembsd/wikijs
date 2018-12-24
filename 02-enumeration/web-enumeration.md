@@ -2,3 +2,5 @@
 <!-- SUBTITLE: A quick summary of Web Enumeration -->
 
 # Header
+
+# Common Technologies
