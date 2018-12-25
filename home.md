@@ -10,7 +10,8 @@
 | :--- | :--- |
 
 # Search
-<iframe id="200_194_express_html_inpage_0.if" src="https://sploitus.com" width="600" height="950" frameborder="0" scrolling="yes" allowfullscreen="true" style="width: 600px; height: 850px;"></iframe>
+<iframe id="200_194_express_html_inpage_0.if" src="https://sploitus.com" frameborder="0" scrolling="yes" allowfullscreen="true" style="width: 1600px; height: 850px;"></iframe>
+
 # Binary Exploitation
 # Bug Hunters Methodology
 # Coding
