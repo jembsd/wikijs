@@ -410,7 +410,7 @@ Sample Output:
 
 ### DNS Bruteforce Enumeration
 
-Uses a dictionary to perform a bruteforce attack to enumerate hostnames and subdomains available under a given domain
+Uses a dictionary to perform a brute force attack to enumerate hostnames and subdomains available under a given domain
 
     use auxiliary/gather/dns_bruteforce
 
@@ -536,6 +536,26 @@ Sample Output:
     [+] guru.avg.com - Found
     [*] Auxiliary module execution completed
 ```
+
+### Zone Transfer
+
+If the targeted machine is running a DNS Server and we have a possible domain name, we may try to figure out A, MX, AAAA records or try zone-transfer to figure out other possible domain names.
+
+    host <domain> <optional_name_server>
+    host -t ns <domain>                -- Name Servers
+    host -t a <domain>                 -- Address
+    host -t aaaa <domain>              -- AAAA record points a domain or subdomain to an IPv6 address
+    host -t mx <domain>                -- Mail Servers
+    host -t soa <domain>               -- Start of Authority
+    host <IP>                          -- Reverse Lookup
+    host -l <Domain Name> <DNS Server> -- Domain Zone Transfer
+
+Example:
+
+    host scanme.nmap.org
+    scanme.nmap.org has address 45.33.32.156
+    scanme.nmap.org has IPv6 address 2600:3c01::f03c:91ff:fe18:bb2f
+
 ## Nmap
 
 Nmap has around 19-20 NSE Scripts for DNS, we haven’t mentioned all the NSE here, only which we were able to use.:
