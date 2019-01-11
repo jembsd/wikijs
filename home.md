@@ -9,6 +9,12 @@
 | Vulnerabilities | Bug Bounty Disclosures | 
 | :--- | :--- |
 
+
+# Exploit Search
+<iframe id="200_194_express_html_inpage_0.if" src="https://sploitus.com" frameborder="0" scrolling="yes" allowfullscreen="false" style="width: 100%; height: 1980px;"></iframe>
+
+
+
 # Useful Resources
 
 | Link | Description |
@@ -17,8 +23,3 @@
 | [PayloadAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | A list of useful payloads and bypass for Web Application Security and Pentest/CTF |
 | [GTFOBins](https://gtfobins.github.io/) | GTFOBins is a curated list of Unix binaries that can be exploited by an attacker to bypass local security restrictions |
 | [CVE Details](https://www.cvedetails.com) | The ultimate security vulnerability data source |
-# Exploit Search
-<iframe id="200_194_express_html_inpage_0.if" src="https://sploitus.com" frameborder="0" scrolling="yes" allowfullscreen="false" style="width: 100%; height: 1980px;"></iframe>
-
-
-
