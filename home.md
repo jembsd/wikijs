@@ -19,14 +19,17 @@
 | :--- | :--- |
 | **VULNERABILITIES** |  |
 | [CVE Details](https://www.cvedetails.com) | The ultimate security vulnerability data source |
-| **EXPLOITS** |  |
-| [CVE Details](https://www.cvedetails.com) | The ultimate security vulnerability data source |
-| [CVE Details](https://www.cvedetails.com) | The ultimate security vulnerability data source |
+| **EXPLOIT SEARCH** |  |
+| [Sploitus](https://sploitus.com) | Sploitus exploit search engine |
+| [ExploitDB](https://www.exploit-db.com) | Exploit-DB exploit search engine |
+| **COMPILED EXPLOITS** |  |
+| [Offensive Security - Compiled Binaries](https://github.com/offensive-security/exploitdb-bin-sploits) | Repo of compiled exploit binaries |
+| [SecWiki](https://github.com/SecWiki/) | Repo of compiled exploit binaries |
 
 ## Tools
 | Link | Description |
 | :--- | :--- |
-| [OWASP Testing Guide v4](https://www.owasp.org/index.php/OWASP_Testing_Guide_v4_Table_of_Contents) | Web Application Testing Guide v4 by OWASP |
+| [CyberChef](https://www.owasp.org/index.php/OWASP_Testing_Guide_v4_Table_of_Contents) | Web Application Testing Guide v4 by OWASP |
 
 ## Lists
 
