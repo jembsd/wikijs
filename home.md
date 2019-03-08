@@ -30,6 +30,7 @@
 | Link | Description |
 | :--- | :--- |
 | [CyberChef](https://www.owasp.org/index.php/OWASP_Testing_Guide_v4_Table_of_Contents) | Web Application Testing Guide v4 by OWASP |
+| [JSNice](http://jsnice.org) | Javascript Beautifier & Deobfuscator |
 
 ## Lists
 
