@@ -38,3 +38,10 @@
 | :--- | :--- |
 | [Pentest Awesome](https://www.cvedetails.com) | The ultimate security vulnerability data source |
 | [Threat Hunting Awesome](https://www.cvedetails.com) | The ultimate security vulnerability data source |
+
+## Top Resources
+
+| Link | Description |
+| :--- | :--- |
+| [Guifre](https://guif.re) | Great list of notes on many topics |
+
