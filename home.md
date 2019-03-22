@@ -44,4 +44,6 @@
 | Link | Description |
 | :--- | :--- |
 | [Guifre](https://guif.re) | Great list of notes on many topics |
+| [Ropnop](https://blog.ropnop.com) | Great blog on recent Windows attacks, Domains, Kerberos etc |
+| [Corelan](https://www.corelan.be) | Excellent eploitation series |
 
