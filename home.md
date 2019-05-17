@@ -1,7 +1,7 @@
 <!-- TITLE: Home -->
 <!-- SUBTITLE: A quick summary of Home -->
 
-# Outstanding Resources
+# Excellent Resources
 ## Methodologies
 | Link | Description |
 | :--- | :--- |
@@ -31,15 +31,20 @@
 | :--- | :--- |
 | [CyberChef](https://www.owasp.org/index.php/OWASP_Testing_Guide_v4_Table_of_Contents) | Web Application Testing Guide v4 by OWASP |
 | [JSNice](http://jsnice.org) | Javascript Beautifier & Deobfuscator |
+| [Dcode.fr](https://www.dcode.fr)   | A tool to solve a variety of different ciphers  |
 
-## Lists
-
+## Sanboxes
 | Link | Description |
 | :--- | :--- |
-| [Pentest Awesome](https://www.cvedetails.com) | The ultimate security vulnerability data source |
-| [Threat Hunting Awesome](https://www.cvedetails.com) | The ultimate security vulnerability data source |
+| [Any.Run](https://app.any.run/) | Malware Analysis Platform |
 
-## Top Resources
+## Github Lists
+| Link | Description |
+| :--- | :--- |
+| [Pentest Awesome (Github)](https://www.cvedetails.com) | The ultimate security vulnerability data source |
+| [Awesome Threat Detection (Github)](https://github.com/0x4D31/awesome-threat-detection) | The ultimate security vulnerability data source |
+
+## Top Blogs
 
 | Link | Description |
 | :--- | :--- |
@@ -47,3 +52,50 @@
 | [Ropnop](https://blog.ropnop.com) | Great blog on recent Windows attacks, Domains, Kerberos etc |
 | [Corelan](https://www.corelan.be) | Excellent eploitation series |
 
+# Digital Forensics Resources
+
+| Link | Description |
+| :--- | :--- |
+| [X](https://medium.com/@europa_/recoinnassance-7840824b9ef2) | x |
+
+# Web Application Resources
+
+## Burp Resources
+
+| Link | Description |
+| :--- | :--- |
+| https://blog.appsecco.com/static-analysis-of-client-side-javascript-for-pen-testers-and-bug-bounty-hunters-f1cb1a5d5288 | Static Analysis of Client-Side JavaScript for pen testers and bug bounty hunters |
+
+## Bug Bounty Resources
+
+| Link | Description |
+| :--- | :--- |
+| [Web Application Reconnaissance](https://medium.com/@europa_/recoinnassance-7840824b9ef2) | Reconnaissance: a eulogy in three acts |
+
+
+# CTF Resources
+
+| Link | Description |
+| :--- | :--- |
+| https://github.com/ctfs | Write-ups and resources about various CTF events |
+| https://github.com/apsdehal/awesome-ctf   | List of awesome CTF resources (Github)  |
+| https://trailofbits.github.io/ctf/   | CTF Field Guide  |
+
+
+# Reverse Engineering Resources
+
+| Link | Description |
+| :--- | :--- |
+| [X](https://medium.com/@europa_/recoinnassance-7840824b9ef2) | x |
+
+# Threat Hunting Resources
+
+| Link | Description |
+| :--- | :--- |
+| [Threat Hunter Playbook](https://github.com/Cyb3rWard0g/ThreatHunter-Playbook) | Threat Hunter Playbook by Cyberd0g |
+
+# Cryptography Resources
+
+| Link | Description |
+| :--- | :--- |
+| [Practical Cyptography](http://practicalcryptography.com/) | Great intro site to cryptography and cryptanalysis |
