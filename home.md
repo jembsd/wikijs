@@ -72,7 +72,11 @@
 | :--- | :--- |
 | [Web Application Reconnaissance](https://medium.com/@europa_/recoinnassance-7840824b9ef2) | Reconnaissance: a eulogy in three acts |
 
+# Coding Resources
 
+| Link | Description |
+| :--- | :--- |
+| http://hyperpolyglot.org | Syntax and comparison of various languages and tools |
 # CTF Resources
 
 | Link | Description |
