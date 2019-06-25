@@ -1,7 +1,7 @@
 <!-- TITLE: Home -->
 <!-- SUBTITLE: A quick summary of Home -->
 
-# Excellent Resources
+# Useful Resources
 ## Methodologies
 | Link | Description |
 | :--- | :--- |
@@ -52,32 +52,32 @@
 | [Ropnop](https://blog.ropnop.com) | Great blog on recent Windows attacks, Domains, Kerberos etc |
 | [Corelan](https://www.corelan.be) | Excellent eploitation series |
 
-# Digital Forensics Resources
+# Digital Forensics
 
 | Link | Description |
 | :--- | :--- |
 | [X](https://medium.com/@europa_/recoinnassance-7840824b9ef2) | x |
 
-# Web Application Resources
+# Web Application
 
-## Burp Resources
+## Burp
 
 | Link | Description |
 | :--- | :--- |
 | https://blog.appsecco.com/static-analysis-of-client-side-javascript-for-pen-testers-and-bug-bounty-hunters-f1cb1a5d5288 | Static Analysis of Client-Side JavaScript for pen testers and bug bounty hunters |
 
-## Bug Bounty Resources
+## Bug Bounties
 
 | Link | Description |
 | :--- | :--- |
 | [Web Application Reconnaissance](https://medium.com/@europa_/recoinnassance-7840824b9ef2) | Reconnaissance: a eulogy in three acts |
 
-# Coding Resources
+# Coding
 
 | Link | Description |
 | :--- | :--- |
 | http://hyperpolyglot.org | Syntax and comparison of various languages and tools |
-# CTF Resources
+# CTF
 
 | Link | Description |
 | :--- | :--- |
@@ -86,19 +86,19 @@
 | https://trailofbits.github.io/ctf/   | CTF Field Guide  |
 
 
-# Reverse Engineering Resources
+# Reverse Engineering
 
 | Link | Description |
 | :--- | :--- |
 | [X](https://medium.com/@europa_/recoinnassance-7840824b9ef2) | x |
 
-# Threat Hunting Resources
+# Threat Hunting
 
 | Link | Description |
 | :--- | :--- |
 | [Threat Hunter Playbook](https://github.com/Cyb3rWard0g/ThreatHunter-Playbook) | Threat Hunter Playbook by Cyberd0g |
 
-# Cryptography Resources
+# Cryptography
 
 | Link | Description |
 | :--- | :--- |
