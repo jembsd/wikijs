@@ -51,6 +51,7 @@
 | [Guifre](https://guif.re) | Great list of notes on many topics |
 | [Ropnop](https://blog.ropnop.com) | Great blog on recent Windows attacks, Domains, Kerberos etc |
 | [Corelan](https://www.corelan.be) | Excellent eploitation series |
+| [harmj0y](http://blog.harmj0y.net) | Active Directory research and penetration testing |
 
 # Digital Forensics
 
