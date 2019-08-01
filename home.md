@@ -85,6 +85,7 @@
 | Link | Description |
 | :--- | :--- |
 | http://hyperpolyglot.org | Syntax and comparison of various languages and tools |
+| [W3Schools](https://www.w3schools.com/python/default.asp) | Excellent programming references for Python, JavaScript and more |
 # CTF
 
 | Link | Description |
