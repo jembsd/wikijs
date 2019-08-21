@@ -31,7 +31,7 @@
 | :--- | :--- |
 | [CyberChef](https://www.owasp.org/index.php/OWASP_Testing_Guide_v4_Table_of_Contents) | Web Application Testing Guide v4 by OWASP |
 | [JSNice](http://jsnice.org) | Javascript Beautifier & Deobfuscator |
-| [Dcode.fr](https://www.dcode.fr)   | A tool to solve a variety of different ciphers  |
+
 
 ## Sandboxes
 | Link | Description |
@@ -112,3 +112,4 @@
 | Link | Description |
 | :--- | :--- |
 | [Practical Cyptography](http://practicalcryptography.com/) | Great intro site to cryptography and cryptanalysis |
+| [Dcode.fr](https://www.dcode.fr)   | A tool to solve a variety of different ciphers  |
