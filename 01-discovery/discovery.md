@@ -1,7 +1,7 @@
-<!-- TITLE: Discovery -->
+<!-- TITLE: 02 - Internal Discovery -->
 <!-- SUBTITLE: A quick summary of Discovery -->
 
-# Finding the IP address
+# Internal Discovery
 
 Before, exploiting any machine, we need to figure out its IP address.
 
