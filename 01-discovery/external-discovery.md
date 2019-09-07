@@ -1,4 +1,4 @@
-<!-- TITLE: 02 - External Discovery -->
-<!-- SUBTITLE: A quick summary of External Discovery -->
+<!-- TITLE: 02 - External Scanning -->
+<!-- SUBTITLE: A quick summary of external scanning -->
 
 # Header
