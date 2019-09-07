@@ -1,4 +1,4 @@
-<!-- TITLE: 02 - Internal Discovery -->
+<!-- TITLE: 03 - Internal Discovery -->
 <!-- SUBTITLE: A quick summary of Discovery -->
 
 # Internal Discovery
