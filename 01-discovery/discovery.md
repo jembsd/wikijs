@@ -1,7 +1,7 @@
-<!-- TITLE: 03 - Internal Discovery -->
-<!-- SUBTITLE: A quick summary of Discovery -->
+<!-- TITLE: 03 - Internal Scanning -->
+<!-- SUBTITLE: A quick summary of internal scanning -->
 
-# Internal Discovery
+# Internal Scanning
 
 Before, exploiting any machine, we need to figure out its IP address.
 
