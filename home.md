@@ -19,6 +19,7 @@
 | :--- | :--- |
 | **VULNERABILITIES** |  |
 | [CVE Details](https://www.cvedetails.com) | The ultimate security vulnerability data source |
+| [CX Security](https://cxsecurity.com) | Search CVE's, CWE's, Bugtraq, Dorks etc - The free vulnerability database |
 | **EXPLOIT SEARCH** |  |
 | [Sploitus](https://sploitus.com) | Sploitus exploit search engine |
 | [ExploitDB](https://www.exploit-db.com) | Exploit-DB exploit search engine |
