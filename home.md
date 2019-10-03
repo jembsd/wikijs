@@ -4,7 +4,7 @@
 # Quick Index
 | Page | Description |
 | :--- | :--- |
-| [Bug Hunting Methodology](./03-exploitation/web-applications/05-tactical-fuzzing) | Bug Hunting Methodology |
+| [Bug Hunting Methodology](./03-exploitation/web-applications) | A strategy for hunting bugs on a target |
 # Useful Resources
 ## Methodologies
 | Link | Description |
