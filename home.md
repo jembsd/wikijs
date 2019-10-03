@@ -1,6 +1,10 @@
 <!-- TITLE: Home -->
 <!-- SUBTITLE: A quick summary of Home -->
 
+# Quick Index
+| Page | Description |
+| :--- | :--- |
+| [Bug Hunting Methodology](./03-exploitation/web-applications/05-tactical-fuzzing) | Bug Hunting Methodology |
 # Useful Resources
 ## Methodologies
 | Link | Description |
